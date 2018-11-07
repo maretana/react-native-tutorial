@@ -5,16 +5,18 @@ import LotsOfGreetings from './components/LotsOfGreetings';
 import BlinkApp from './components/BlinkApp';
 import LotsOfStyles from './components/LotsofStyles';
 import FixedDimensionsBasics from './components/FixedDimensionsBasics';
+import PizzaTranslator from './components/PizzaTranslator';
 
 export default class HelloWorldApp extends Component {
   render() {
     return (
       <ScrollView>
         <Bananas />
-        <LotsOfGreetings />
+        {/* <LotsOfGreetings /> */}
         {/* <BlinkApp /> <-- annoying*/}
-        <LotsOfStyles />
-        <FixedDimensionsBasics />
+        {/* <LotsOfStyles /> */}
+        {/* <FixedDimensionsBasics /> */}
+        <PizzaTranslator />
       </ScrollView>
     );
   }
