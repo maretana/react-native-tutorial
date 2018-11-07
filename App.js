@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, Button, Alert } from 'react-native';
 import Bananas from './components/Bananas';
 import LotsOfGreetings from './components/LotsOfGreetings';
 import BlinkApp from './components/BlinkApp';
@@ -17,6 +17,12 @@ export default class HelloWorldApp extends Component {
         {/* <LotsOfStyles /> */}
         {/* <FixedDimensionsBasics /> */}
         <PizzaTranslator />
+        <Button
+          onPress={() => {
+            Alert.alert('You tapped the button!');
+          }}
+          title="Press Me"
+        />
       </ScrollView>
     );
   }
