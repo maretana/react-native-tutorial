@@ -21,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "mario.tutorial.test"
+    },
+    "android": {
+      "package": "mario.tutorial.test"
     }
   }
 }
