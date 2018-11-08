@@ -25,4 +25,4 @@ export default class LotsOfStyles extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => LotsOfStyles);
+AppRegistry.registerComponent('LotsOfStyles', () => LotsOfStyles);

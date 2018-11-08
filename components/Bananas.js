@@ -12,4 +12,4 @@ export default class Bananas extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => Bananas);
+AppRegistry.registerComponent('Bananas', () => Bananas);

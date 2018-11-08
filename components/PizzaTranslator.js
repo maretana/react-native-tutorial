@@ -23,4 +23,4 @@ export default class PizzaTranslator extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => PizzaTranslator);
+AppRegistry.registerComponent('PizzaTranslator', () => PizzaTranslator);

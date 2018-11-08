@@ -28,4 +28,4 @@ export default class HelloWorldApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => HelloWorldApp);
+AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);

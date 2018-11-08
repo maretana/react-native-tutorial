@@ -13,4 +13,4 @@ export default class FixedDimensionsBasics extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => FixedDimensionsBasics);
+AppRegistry.registerComponent('FixedDimensionsBasics', () => FixedDimensionsBasics);

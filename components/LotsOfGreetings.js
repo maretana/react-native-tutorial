@@ -23,4 +23,4 @@ export default class LotsOfGreetings extends Component {
   }
 }
 
-AppRegistry.registerComponent('react-native-tutorial', () => LotsOfGreetings);
+AppRegistry.registerComponent('LotsOfGreetings', () => LotsOfGreetings);
