@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { AppRegistry, Text, View } from 'react-native';
 
 class Blink extends Component {
   constructor(props) {
@@ -37,3 +37,5 @@ export default class BlinkApp extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => BlinkApp);

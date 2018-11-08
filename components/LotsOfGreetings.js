@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { AppRegistry, Text, View } from 'react-native';
 
 class Greeting extends Component {
   render() {
@@ -22,3 +22,5 @@ export default class LotsOfGreetings extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => LotsOfGreetings);

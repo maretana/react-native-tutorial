@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 
 export default class FixedDimensionsBasics extends Component {
   render() {
@@ -12,3 +12,5 @@ export default class FixedDimensionsBasics extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => FixedDimensionsBasics);

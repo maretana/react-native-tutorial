@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, TextInput, View } from 'react-native';
+import { AppRegistry, Text, TextInput, View } from 'react-native';
 
 export default class PizzaTranslator extends Component {
   constructor(props) {
@@ -22,3 +22,5 @@ export default class PizzaTranslator extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => PizzaTranslator);

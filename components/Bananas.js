@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-native';
+import { AppRegistry, Image } from 'react-native';
 
 export default class Bananas extends Component {
   render() {
@@ -11,3 +11,5 @@ export default class Bananas extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => Bananas);

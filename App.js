@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, Button, Alert } from 'react-native';
+import { AppRegistry, ScrollView, Button, Alert } from 'react-native';
 import Bananas from './components/Bananas';
 import LotsOfGreetings from './components/LotsOfGreetings';
 import BlinkApp from './components/BlinkApp';
@@ -27,3 +27,5 @@ export default class HelloWorldApp extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('react-native-tutorial', () => HelloWorldApp);
